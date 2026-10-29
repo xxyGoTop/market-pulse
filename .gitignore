@@ -1,0 +1,29 @@
+# 依赖
+node_modules
+.pnpm-store
+
+# 构建产物
+dist
+dist-electron
+release
+release-*
+.vite
+
+# 安装包与本地分发包（体积大，不进仓库）
+*.exe
+*.dmg
+*.zip
+
+# 日志与临时文件
+*.log
+.tmp/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器 / 工具本地状态
+.vscode/*
+!.vscode/extensions.json
+.idea
+.workbuddy-ai/

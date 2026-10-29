@@ -1,0 +1,172 @@
+/* 亮色：淡蓝天光 + 白卡，对应设计稿「亮色皮肤」 */
+:root,
+:root[data-theme='light'] {
+  --bg: #eff4fb;
+  --bg-grad-a: #dce8f7;
+  --bg-grad-b: #fbfdff;
+  --bg-grad-c: #e9f1fa;
+
+  --card: rgba(255, 255, 255, 0.82);
+  --card-solid: #ffffff;
+  --card-sub: #f3f6fb;
+  --card-tint: rgba(255, 255, 255, 0.6);
+
+  --text: #16202f;
+  --text-2: #5c6b82;
+  --text-3: #93a1b5;
+  --text-invert: #ffffff;
+
+  --border: rgba(22, 32, 47, 0.075);
+  --border-strong: rgba(22, 32, 47, 0.14);
+
+  --shadow-card: 0 1px 2px rgba(22, 32, 47, 0.04), 0 10px 30px rgba(22, 32, 47, 0.06);
+  --shadow-float: 0 18px 46px rgba(22, 32, 47, 0.16);
+  --shadow-pill: 0 4px 14px rgba(22, 32, 47, 0.1);
+
+  --hover: rgba(22, 32, 47, 0.045);
+  --active: rgba(22, 32, 47, 0.075);
+  --track: rgba(22, 32, 47, 0.08);
+  --danger: #e0524f;
+  /* 涨跌色遵循 A 股习惯：红涨绿跌。语义色，任何皮肤下都不改 */
+  --up: #e0453c;
+  --down: #0f9d6e;
+  --scroll: rgba(22, 32, 47, 0.16);
+
+  /* 卡片柔和底色的透明度：亮色下更实一些，保证文字对比 */
+  --soft-strength: 100%;
+}
+
+/* 暗色：深海军蓝，对应设计稿「暗色皮肤」 */
+:root[data-theme='dark'] {
+  --bg: #0d131e;
+  --bg-grad-a: #172233;
+  --bg-grad-b: #0a0f18;
+  --bg-grad-c: #121b28;
+
+  --card: rgba(24, 33, 46, 0.88);
+  --card-solid: #182130;
+  --card-sub: #1f2a3a;
+  --card-tint: rgba(255, 255, 255, 0.03);
+
+  --text: #eef3fa;
+  --text-2: #98a7bb;
+  --text-3: #6b7a8d;
+  --text-invert: #ffffff;
+
+  --border: rgba(255, 255, 255, 0.075);
+  --border-strong: rgba(255, 255, 255, 0.16);
+
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-float: 0 22px 54px rgba(0, 0, 0, 0.58);
+  --shadow-pill: 0 4px 14px rgba(0, 0, 0, 0.4);
+
+  --hover: rgba(255, 255, 255, 0.05);
+  --active: rgba(255, 255, 255, 0.09);
+  --track: rgba(255, 255, 255, 0.09);
+  --danger: #f0716c;
+  --up: #ff6f66;
+  --down: #35d39c;
+  --scroll: rgba(255, 255, 255, 0.16);
+
+  --soft-strength: 100%;
+}
+
+/* ================================================================== *
+ * 皮肤（data-skin）
+ * 只覆盖中性色与背景光晕，不动 --market-* 与分组色，
+ * 保证「颜色 = 状态」的语义在任何皮肤下都成立。
+ * sky 为默认值，不需要额外覆盖。
+ * ================================================================== */
+
+/* 雾灰：中性冷灰，长时间盯着不刺眼 */
+:root[data-skin='mist'][data-theme='light'] {
+  --bg: #eef0f4;
+  --bg-grad-a: #e2e6ec;
+  --bg-grad-b: #fbfcfd;
+  --bg-grad-c: #eaedf2;
+  --card: rgba(255, 255, 255, 0.84);
+  --card-sub: #f4f6f9;
+  --text: #1b2029;
+  --text-2: #5f6875;
+  --text-3: #97a0ad;
+  --border: rgba(27, 32, 41, 0.08);
+  --border-strong: rgba(27, 32, 41, 0.15);
+}
+
+:root[data-skin='mist'][data-theme='dark'] {
+  --bg: #101318;
+  --bg-grad-a: #1a1f27;
+  --bg-grad-b: #0b0e13;
+  --bg-grad-c: #151a21;
+  --card: rgba(24, 28, 35, 0.9);
+  --card-solid: #181c23;
+  --card-sub: #21262f;
+  --text: #eceff4;
+  --text-2: #9aa3b1;
+  --text-3: #6d7683;
+}
+
+/* 暖砂：米杏底色，纸感偏暖 */
+:root[data-skin='sand'][data-theme='light'] {
+  --bg: #f7f3ec;
+  --bg-grad-a: #efe6d8;
+  --bg-grad-b: #fdfbf7;
+  --bg-grad-c: #f4ede2;
+  --card: rgba(255, 253, 249, 0.86);
+  --card-solid: #fffdf9;
+  --card-sub: #faf6f0;
+  --text: #241f18;
+  --text-2: #6b6156;
+  --text-3: #a0948a;
+  --border: rgba(36, 31, 24, 0.08);
+  --border-strong: rgba(36, 31, 24, 0.15);
+  --shadow-card: 0 1px 2px rgba(60, 46, 30, 0.05), 0 10px 30px rgba(60, 46, 30, 0.07);
+  --shadow-float: 0 18px 46px rgba(60, 46, 30, 0.18);
+}
+
+:root[data-skin='sand'][data-theme='dark'] {
+  --bg: #14110d;
+  --bg-grad-a: #221c15;
+  --bg-grad-b: #0e0b08;
+  --bg-grad-c: #1b1610;
+  --card: rgba(28, 24, 19, 0.9);
+  --card-solid: #1c1813;
+  --card-sub: #251f18;
+  --text: #f4efe7;
+  --text-2: #a89e91;
+  --text-3: #7a7064;
+  --border: rgba(255, 245, 230, 0.08);
+  --border-strong: rgba(255, 245, 230, 0.16);
+}
+
+/* 墨蓝：更深更沉，夜间最省眼 */
+:root[data-skin='ink'][data-theme='light'] {
+  --bg: #e9eef6;
+  --bg-grad-a: #d6e0ee;
+  --bg-grad-b: #f8fbff;
+  --bg-grad-c: #e2eaf5;
+  --card: rgba(255, 255, 255, 0.8);
+  --card-sub: #f3f6fa;
+  --text: #101a28;
+  --text-2: #55637a;
+  --text-3: #8b99ad;
+  --border: rgba(16, 26, 40, 0.09);
+  --border-strong: rgba(16, 26, 40, 0.16);
+}
+
+:root[data-skin='ink'][data-theme='dark'] {
+  --bg: #080c12;
+  --bg-grad-a: #0f1620;
+  --bg-grad-b: #05080d;
+  --bg-grad-c: #0b1119;
+  --card: rgba(15, 22, 33, 0.92);
+  --card-solid: #0f1621;
+  --card-sub: #16202e;
+  --text: #e9f0f9;
+  --text-2: #8e9db1;
+  --text-3: #63718a;
+  --border: rgba(255, 255, 255, 0.07);
+  --border-strong: rgba(255, 255, 255, 0.14);
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-float: 0 22px 54px rgba(0, 0, 0, 0.65);
+}

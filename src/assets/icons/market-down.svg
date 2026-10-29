@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="调整下行">
+  <title>调整下行</title>
+  <defs>
+    <linearGradient id="market-down" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="var(--tone-a, #FFB35C)"/>
+      <stop offset="1" stop-color="var(--tone-b, #EE8A2E)"/>
+    </linearGradient>
+    <linearGradient id="market-down-gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="64" height="64" rx="20" fill="url(#market-down)"/>
+  <rect x="0" y="0" width="64" height="64" rx="20" fill="url(#market-down-gloss)"/>
+  <g transform="translate(32 32) scale(1.12) translate(-32 -32)">
+  <g fill="none" stroke="#FFFFFF" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 21 L27 32 L34 25 L46 40"/>
+    <path d="M46 29 L46 40 L35 40"/>
+  </g>
+  </g>
+</svg>

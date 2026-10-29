@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="短博反弹">
+  <title>短博反弹</title>
+  <defs>
+    <linearGradient id="short-term" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="var(--tone-a, #FFB35C)"/>
+      <stop offset="1" stop-color="var(--tone-b, #EE8A2E)"/>
+    </linearGradient>
+    <linearGradient id="short-term-gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="64" height="64" rx="20" fill="url(#short-term)"/>
+  <rect x="0" y="0" width="64" height="64" rx="20" fill="url(#short-term-gloss)"/>
+  <g transform="translate(32 32) scale(1.12) translate(-32 -32)">
+  <path d="M35.6 13.4 20.4 35.2a1.4 1.4 0 0 0 1.15 2.2h8.3l-2.1 13.2a1.4 1.4 0 0 0 2.5 1l15.2-21.8a1.4 1.4 0 0 0-1.15-2.2h-8.3l2.1-13.2a1.4 1.4 0 0 0-2.5-1z" fill="#FFFFFF"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="中长期">
+  <title>中长期</title>
+  <defs>
+    <linearGradient id="long-term" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="var(--tone-a, #5B9BFF)"/>
+      <stop offset="1" stop-color="var(--tone-b, #3F7BE8)"/>
+    </linearGradient>
+    <linearGradient id="long-term-gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="64" height="64" rx="20" fill="url(#long-term)"/>
+  <rect x="0" y="0" width="64" height="64" rx="20" fill="url(#long-term-gloss)"/>
+  <g transform="translate(32 32) scale(1.12) translate(-32 -32)">
+  <g fill="#FFFFFF">
+    <rect x="14" y="38" width="7.4" height="12" rx="3.2"/>
+    <rect x="24" y="33" width="7.4" height="17" rx="3.2" opacity="0.88"/>
+    <rect x="34" y="27" width="7.4" height="23" rx="3.2" opacity="0.72"/>
+    <rect x="44" y="22" width="7.4" height="28" rx="3.2" opacity="0.58"/>
+  </g>
+  <g fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 30 L25 19 L33 25 L46 12"/>
+    <path d="M46 21 L46 12 L37 12"/>
+  </g>
+  </g>
+</svg>

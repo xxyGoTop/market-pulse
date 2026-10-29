@@ -1,0 +1,38 @@
+:root {
+  /* 字体：全部使用系统字体，保证离线可用 */
+  --font-sans: 'Segoe UI', 'Microsoft YaHei UI', 'Microsoft YaHei', 'PingFang SC',
+    'Hiragino Sans GB', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Cascadia Mono', 'JetBrains Mono', Consolas, 'Courier New', monospace;
+
+  /* 尺寸 */
+  --radius-card: 20px;
+  --radius-lg: 24px;
+  --radius-md: 14px;
+  --radius-sm: 11px;
+  --radius-xs: 8px;
+  --radius-pill: 999px;
+  --page-pad: 16px;
+  --gap: 12px;
+
+  /* 字号 */
+  --fs-label: 12px;
+  --fs-body: 13px;
+  --fs-title: 23px;
+
+  /* 动效 */
+  --ease: cubic-bezier(0.32, 0.72, 0, 1);
+  --dur: 200ms;
+
+  /* 大盘强调色，运行时由 useTheme 按当前阶段覆盖 */
+  --market-a: #43d69b;
+  --market-b: #1fb37b;
+  --market-soft: #def7ec;
+  --market-ink: #16a175;
+  --market-accent: #16a175;
+  --market-surface: #def7ec;
+
+  --z-titlebar: 20;
+  --z-popover: 60;
+  --z-modal: 80;
+  --z-toast: 100;
+}

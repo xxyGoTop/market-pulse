@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="牛市上行">
+  <title>牛市上行</title>
+  <defs>
+    <linearGradient id="market-bull" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="var(--tone-a, #FF7FBB)"/>
+      <stop offset="1" stop-color="var(--tone-b, #EE4A93)"/>
+    </linearGradient>
+    <linearGradient id="market-bull-gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="64" height="64" rx="20" fill="url(#market-bull)"/>
+  <rect x="0" y="0" width="64" height="64" rx="20" fill="url(#market-bull-gloss)"/>
+  <g transform="translate(32 32) scale(1.12) translate(-32 -32)">
+  <g fill="none" stroke="#FFFFFF" stroke-width="4.6" stroke-linecap="round">
+    <path d="M24 30.5C18.5 29.6 14 25.4 12.4 19.6"/>
+    <path d="M40 30.5C45.5 29.6 50 25.4 51.6 19.6"/>
+  </g>
+  <ellipse cx="32" cy="36.5" rx="11" ry="10.2" fill="#FFFFFF"/>
+  <g fill="url(#market-bull)">
+    <circle cx="27.6" cy="34" r="1.9"/>
+    <circle cx="36.4" cy="34" r="1.9"/>
+    <circle cx="29" cy="42" r="1.15"/>
+    <circle cx="35" cy="42" r="1.15"/>
+  </g>
+  </g>
+</svg>

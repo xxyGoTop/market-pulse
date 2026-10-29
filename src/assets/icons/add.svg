@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="添加">
+  <title>添加</title>
+  <g transform="scale(2.6667)" stroke-width="2">
+    <path d="M5 12h14"/>
+    <path d="M12 5v14"/>
+  </g>
+</svg>

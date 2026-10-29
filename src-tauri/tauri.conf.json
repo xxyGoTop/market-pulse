@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Market Pulse",
+  "version": "1.0.0",
+  "identifier": "com.marketpulse.app",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:5178"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Market Pulse",
+        "width": 1000,
+        "height": 640,
+        "minWidth": 900,
+        "minHeight": 540,
+        "resizable": true,
+        "decorations": false,
+        "transparent": true,
+        "alwaysOnTop": true,
+        "skipTaskbar": false
+      }
+    ],
+    "trayIcon": {
+      "iconPath": "icons/icon-32.png",
+      "iconAsTemplate": true
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/icon-32.png",
+      "icons/icon-64.png",
+      "icons/icon-128.png",
+      "icons/icon-256.png",
+      "icons/icon-512.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}

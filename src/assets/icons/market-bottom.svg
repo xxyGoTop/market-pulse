@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="底部筑底">
+  <title>底部筑底</title>
+  <defs>
+    <linearGradient id="market-bottom" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="var(--tone-a, #5B9BFF)"/>
+      <stop offset="1" stop-color="var(--tone-b, #3F7BE8)"/>
+    </linearGradient>
+    <linearGradient id="market-bottom-gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="64" height="64" rx="20" fill="url(#market-bottom)"/>
+  <rect x="0" y="0" width="64" height="64" rx="20" fill="url(#market-bottom-gloss)"/>
+  <g transform="translate(32 32) scale(1.12) translate(-32 -32)">
+  <g fill="none" stroke="#FFFFFF" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15 41 L23 29 L30 37 L37 27"/>
+  </g>
+  <circle cx="45.5" cy="24" r="5.4" fill="#FFFFFF"/>
+  </g>
+</svg>
